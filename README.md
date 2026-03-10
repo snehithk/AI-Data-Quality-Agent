@@ -155,23 +155,7 @@ This project uses **100% free services**:
 - ✅ No database costs: In-memory processing
 - ✅ No storage costs: Works with temporary data
 
-**Perfect for**: Students, portfolio projects, small-scale production use
 
-## 🔐 Security Notes
-
-- **API Keys**: Never commit API keys to GitHub
-- **Use Environment Variables**: Store keys securely
-- **Data Privacy**: No data is stored by LLM providers (check ToS)
-
-```python
-# Good practice
-import os
-OPENROUTER_API_KEY = os.getenv('OPENROUTER_API_KEY')
-
-# Or use Google Colab secrets
-from google.colab import userdata
-OPENROUTER_API_KEY = userdata.get('OPENROUTER_API_KEY')
-```
 
 ## 📚 Learning Outcomes
 
@@ -218,26 +202,8 @@ This is a portfolio project, but suggestions are welcome!
 
 MIT License - feel free to use this for learning and portfolio purposes.
 
-## 👤 Author
 
-**Big Data Engineer transitioning to AI/ML**
 
-- Focus: Data quality, ETL pipelines, AI integration
-- Experience: Big data frameworks, cloud platforms
-- Learning: LLM applications, prompt engineering
-
-## 🙏 Acknowledgments
-
-- OpenRouter for free LLM API access
-- Hugging Face for model hosting
-- Google Colab for free compute
-- The open-source community
-
-## 📞 Contact
-
-For questions or collaboration:
-- GitHub Issues: For technical questions
-- Pull Requests: For improvements and suggestions
 
 ---
 
