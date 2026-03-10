@@ -8,17 +8,5 @@ numpy>=1.24.0
 # API Requests
 requests>=2.31.0
 
-# Optional: For visualization (uncomment if needed)
-# matplotlib>=3.7.0
-# seaborn>=0.12.0
-
-# Optional: For advanced data quality checks (uncomment if needed)
-# great-expectations>=0.18.0
-# duckdb>=0.9.0
-
-# Optional: Alternative LLM integrations (uncomment if needed)
-# openai>=1.0.0  # For OpenAI GPT models
-# langchain>=0.1.0  # For LangChain framework
-# langchain-community>=0.0.10
-# anthropic>=0.8.0  # For Claude models
-# google-generativeai>=0.3.0  # For Gemini models
+# Testing
+pytest>=8.0.0
